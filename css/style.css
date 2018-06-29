@@ -1,0 +1,42 @@
+.footer {
+background: #000000;
+opacity: .9;
+color:silver;
+}
+
+.bg-primary {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+
+dt,dd {
+  border-bottom: 1px ridge;
+  padding: 10px;
+}
+
+
+.slide_img {
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.main {
+  position: relative; /* To make the navbar positions relative to this container */
+  padding: 0;
+}
+
+.covertext {
+  position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
+  top: 200px; /* The distance between the div with the top of document */
+  left: 0px; /* Make the div full width */
+  right: 0px; /* Make the div full width */
+}
+
+@media (max-width: 768px) {
+  #carouselExampleControls {
+    margin: 0px auto;
+    padding-top: 65px;
+  }
+}
