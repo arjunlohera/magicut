@@ -173,7 +173,7 @@ header.masthead {
   text-align: center;
   color: white;
   /* background-image: url("../img/header-bg.jpg"); */
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
@@ -183,27 +183,29 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 100px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
+  font-size: 20px;
   font-style: italic;
   line-height: 22px;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 50px;
-  /* font-weight: 100;
-  line-height: 50px; */
-  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 50px;
+  /* font-weight: 100;*/
+  /* margin-bottom: 25px; */
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) { /*For bigger screen */
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
@@ -218,7 +220,7 @@ header.masthead .intro-text .intro-heading {
   header.masthead .intro-text .intro-heading {
     font-size: 32px;
     /* font-weight: 700; */
-    /* line-height: 75px; */
+    line-height: 75px;
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
