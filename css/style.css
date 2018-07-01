@@ -32,8 +32,24 @@ color:silver;
     left: 0px; /* Make the div full width */
     right: 0px; /* Make the div full width */
   }
+  #call_btn{
+    visibility: hidden; /*on smaller screen make call btn hidden */
+  }
+  #caption {
+    visibility: hidden;
+  }
 }
 
 #social_btn {
-  margin-top: 30px;
+  margin-top: 30px; /* to make some distance between call btn and social media btn on small screen */
+}
+
+#caption {
+  margin-bottom: 225px;
+  font-size: 28px;
+  font-style: oblique;
+}
+
+#call_btn {
+  margin-top: 50px;
 }
