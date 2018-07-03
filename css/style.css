@@ -16,10 +16,26 @@ color:silver;
 
 .covertext {
   position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
-  top: 80px;  /*The distance between the div with the top of document */
+  top: 70px;  /*The distance between the div with the top of document */
   left: 0px;  /* Make the div full width */
   right: 0px; /* Make the div full width */
 }
+
+
+#social_btn {
+  margin-top: 30px; /* to make some distance between call btn and social media btn on small screen */
+}
+
+#caption {
+  margin-bottom: 200px;
+  font-size: 28px;
+  font-style: oblique;
+}
+
+#call_btn {
+  margin-top: 80px;
+}
+
 
 @media (max-width: 768px) { /* for smaller screen */
   #carouselExampleControls {
@@ -28,7 +44,7 @@ color:silver;
   }
   .covertext {
     position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
-    top: 10px; /* The distance between the div with the top of document */
+    top: 30px; /* The distance between the div with the top of document */
     left: 0px; /* Make the div full width */
     right: 0px; /* Make the div full width */
   }
@@ -38,18 +54,4 @@ color:silver;
   #caption {
     visibility: hidden;
   }
-}
-
-#social_btn {
-  margin-top: 30px; /* to make some distance between call btn and social media btn on small screen */
-}
-
-#caption {
-  margin-bottom: 225px;
-  font-size: 28px;
-  font-style: oblique;
-}
-
-#call_btn {
-  margin-top: 50px;
 }
