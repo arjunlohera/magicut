@@ -36,7 +36,6 @@ color:silver;
   margin-top: 80px;
 }
 
-
 @media (max-width: 768px) { /* for smaller screen */
   #carouselExampleControls {
     margin: 0px auto;
